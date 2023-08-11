@@ -135,6 +135,6 @@ def calculator():
             window['input'].update(str(math.sqrt(float(values['input']))))
         except:
             window['input'].update('Expression Error is obtained')
-  window.close()
+
 
 calculator()
